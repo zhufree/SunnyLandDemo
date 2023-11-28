@@ -1,0 +1,77 @@
+.button-style {
+    height: 15%;
+    width: 40%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: rgba(60, 224, 151, 0.47);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-font: url('project://database/Assets/fonts/simfang.ttf?fileID=12800000&guid=2added4c9459e784c8952de92e951ca1&type=3#simfang');
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0 rgb(59, 236, 189);
+}
+
+.button-style:hover {
+    height: 15%;
+    width: 40%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: rgba(60, 224, 151, 0.71);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-font: url('project://database/Assets/fonts/simfang.ttf?fileID=12800000&guid=2added4c9459e784c8952de92e951ca1&type=3#simfang');
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0 rgb(59, 236, 189);
+}
+
+.button-style:active {
+    height: 15%;
+    width: 40%;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: rgba(24, 200, 122, 0.94);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-font: url('project://database/Assets/fonts/simfang.ttf?fileID=12800000&guid=2added4c9459e784c8952de92e951ca1&type=3#simfang');
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0 rgb(59, 236, 189);
+}

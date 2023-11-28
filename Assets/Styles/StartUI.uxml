@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Styles/MenuStyle.uss?fileID=7433441132597879392&amp;guid=4f54bc0b64a7dc349b0a32c6e84724aa&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Label text="Sunny Land" display-tooltip-when-elided="true" name="GameTitle" style="font-size: 120px; color: rgb(212, 111, 0);" />
+        <ui:Button text="开始游戏" display-tooltip-when-elided="true" name="PlayBtn" class="button-style" />
+        <ui:Button text="设置" display-tooltip-when-elided="true" name="OptionsBtn" class="button-style" />
+        <ui:Button text="退出" display-tooltip-when-elided="true" name="QuitBtn" class="button-style" />
+    </ui:VisualElement>
+    <ui:VisualElement name="OptionsMenu" style="flex-grow: 1; align-items: center; justify-content: center; display: none;">
+        <ui:Button text="退出" display-tooltip-when-elided="true" name="BackBtn" class="button-style" />
+    </ui:VisualElement>
+</ui:UXML>
